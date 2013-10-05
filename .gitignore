@@ -101,7 +101,6 @@ CVS/
 packages/
 
 #Miscellaneous Files
-*.exe
 *.fb6lck
 *.fbl6
 *.patch
