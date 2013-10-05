@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfTap.WindowsServiceHost", "PerfTap.WindowsServiceHost\PerfTap.WindowsServiceHost.csproj", "{4EE474EE-C787-464A-B030-F5CE8A8C4CBE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfTap", "PerfTap\PerfTap.csproj", "{D1FF64F1-E30B-452E-830C-44720697BAC1}"
@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DB4910
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceChassis", "ServiceChassis\ServiceChassis.csproj", "{E21C7BB1-CB09-4213-8BB9-2EF0DF77F430}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfTap.Tests", "..\tests\PerfTap.Tests\PerfTap.Tests.csproj", "{891D0AD9-D10D-4255-9BA8-9E106AC19C66}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfTap.Tests", "PerfTap.Tests\PerfTap.Tests.csproj", "{891D0AD9-D10D-4255-9BA8-9E106AC19C66}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Installation", "Installation", "{D05923E5-12CD-4192-BDF0-DDC2F6F34BCC}"
 	ProjectSection(SolutionItems) = preProject
@@ -24,6 +24,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 	ProjectSection(SolutionItems) = preProject
 		..\LICENSE.md = ..\LICENSE.md
 		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{4F90BF43-34C6-4D45-862A-F4B7E2F4EE65}"
+	ProjectSection(SolutionItems) = preProject
+		default.ps1 = default.ps1
 	EndProjectSection
 EndProject
 Global
@@ -81,7 +86,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		CodeStyleEnforcer_RulesLocation = 
 		CodeStyleEnforcer_Active = 0
+		CodeStyleEnforcer_RulesLocation = 
 	EndGlobalSection
 EndGlobal
