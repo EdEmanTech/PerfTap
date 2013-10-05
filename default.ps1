@@ -36,11 +36,7 @@
 	   
 	  $sln_file = "$src_dir\$project.sln"
 	}
-#
- #   Include  .\teamcity.psm1
-  #  TaskSetup {
-   #     TeamCity-ReportBuildProgress "Running task $($script:context.Peek().currentTaskName)"
-    #}
+
 
     task Clean { 
         remove-item -force -recurse $output_dir -ea SilentlyContinue | Out-Null
