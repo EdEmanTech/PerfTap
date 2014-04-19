@@ -29,7 +29,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{4F90BF43-34C6-4D45-862A-F4B7E2F4EE65}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "buildScripts", "buildScripts", "{4F90BF43-34C6-4D45-862A-F4B7E2F4EE65}"
 	ProjectSection(SolutionItems) = preProject
 		..\build.fsx = ..\build.fsx
 		..\default.ps1 = ..\default.ps1
